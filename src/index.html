@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>EBAC Tech Talks</title>
 </head>
 <body>
@@ -37,7 +38,54 @@
             </div>
         </div>
     </header>
-
+    
+    <section class="event event--frontend">
+        <!-- esse data-aos é de uma extenção de exibição para o item vir, neste caso, dando um zoom tipo aprensentação de powe poit -->
+        <div class="container" data-aos="zoom-in-right">  
+            <div class="event_details">
+                <h2 class="event__details__title">Front-end</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro neque fugiat perspiciatis, velit quibusdam nesciunt magni eaque quaerat repellat mollitia possimus ipsa voluptatem sunt consequuntur eos placeat eius. Ullam, veniam.
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="font-end">
+        </div>
+    </section>
+    <section class="event event--ui-ux event--image-left">
+        <div class="container" data-aos="zoom-in-left">
+            <div class="event_details">
+                <h2 class="event__details__title">UI/UX</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro neque fugiat perspiciatis, velit quibusdam nesciunt magni eaque quaerat repellat mollitia possimus ipsa voluptatem sunt consequuntur eos placeat eius. Ullam, veniam.
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="font-end">
+        </div>
+    </section>
+    <section class="event event--data-science">
+        <div class="container" data-aos="zoom-in-right">
+            <div class="event_details">
+                <h2 class="event__details__title">Data Science</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro neque fugiat perspiciatis, velit quibusdam nesciunt magni eaque quaerat repellat mollitia possimus ipsa voluptatem sunt consequuntur eos placeat eius. Ullam, veniam.
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="font-end">
+        </div>
+    </section>
+    <section class="event event--backend event--image-left">
+        <div class="container" data-aos="zoom-in-left">
+            <div class="event_details">
+                <h2 class="event__details__title">Back-end</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro neque fugiat perspiciatis, velit quibusdam nesciunt magni eaque quaerat repellat mollitia possimus ipsa voluptatem sunt consequuntur eos placeat eius. Ullam, veniam.
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="font-end">
+        </div>
+    </section>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./scripts/main.js"></script>
 </body>
 </html>

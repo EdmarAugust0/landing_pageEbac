@@ -9,8 +9,8 @@
     white-space: nowrap;
 
     &--primary {
-        color: #fff;
-        background-color: #4f2ac3;
+        color: variaveis.$textColor;
+        background-color: variaveis.$corButtonPrimary;
 
         &:hover {
             background-color: lighten(variaveis.$corButtonPrimary, 4%);
