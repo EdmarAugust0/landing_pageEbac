@@ -1,32 +1,15 @@
 @use 'variaveis';
 
 .event {
-    padding: 80px 0;
-    
-    &--frontend {
-        background-image: linear-gradient(variaveis.$blue1, variaveis.$blue2);
-    }
+    padding: 160px 0;
 
     &--ui-ux {
         background-image: linear-gradient(variaveis.$blue2, variaveis.$pink);
     }
 
-    &--data-science {
-        background-image: linear-gradient(variaveis.$pink, variaveis.$yellow);
-    }
-
-    &--backend {
-        background-image: linear-gradient(variaveis.$yellow, variaveis.$pink);
-    }
-
-    &--image-left {
-        .container {
-            flex-direction: row-reverse;
-        }
-    }
-
     .container {
         display: flex;
+        flex-direction: column;
         gap: 40px;
         align-items: center;
 
@@ -37,6 +20,7 @@
 
     &__image {
         max-width: 360px;
+        margin-top: -50px;
     }
 
     &__details {
@@ -49,6 +33,7 @@
 
         &__description {
             line-height: 22px;
+            margin-bottom: 10px;
         }
     }
     
